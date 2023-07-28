@@ -11,7 +11,7 @@ Contador de pessoas na sala.<br/>
 
 ## :pushpin: Descrição
 
-​	O objetivo do nosso dispositivo é muito simples: contar a quantidade de pessoas na sala e exibir em um display. Para isto, fizemos uso de dois sensores, um infravermelho e outro ultrassônico, colocados um do lado do outro. O contador inicializa com o valor 0; se o alguém passar pelo dispositivo, os dois sensores vão detectar movimento. A questão é a ordem em que os dois dispositivos detectam o movimento: se o sensor ultrassônico detectar colisão antes do sensor infravermelho, significa que alguém entrou na sala e o contador é incrementado, sendo atualizado o valor mostrado no display; caso contrário, alguém saiu da sala e o contador é decrementado. Além disso, configuramos um chatbot no telegram, que envia a quantidade de pessoas como mensagem para um usuário.
+​	O objetivo do nosso dispositivo é muito simples: contar quantas pessoas entraram na sala a partir de determinado momento e exibir em um display. Para isto, fizemos uso de dois sensores, um infravermelho e outro ultrassônico, colocados um do lado do outro. O contador inicializa com o valor 0; se alguém passar em frente aos sensores, ambos vão detectar movimento. A questão é a ordem em que os dois dispositivos detectam o movimento: se o sensor ultrassônico detectar colisão antes do sensor infravermelho, significa que alguém entrou na sala e o contador é incrementado, sendo atualizado o valor mostrado no display; caso contrário, alguém saiu da sala e o contador é decrementado. Além disso, configuramos um chatbot de telegram, que envia mensagens para um usuário informando toda vez que alguém entrou ou saiu da sala, com a informação da quantidade de pessoas no momento.
 
 <br/>
 

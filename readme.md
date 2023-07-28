@@ -74,7 +74,7 @@ Com esse tipo de sensor, podemos detectar se uma superfície é escura ou clara,
 
 <p align="center">
 Figura - Diagrama do circuito<br/>
-  <img src="https://github.com/Anemaygi/SMAC/blob/master/src/circuitoa.png" width="400" /><br/>
+  <img src="https://github.com/rafael2051/Projeto-EPS32/blob/master/Images/circuito.png" width="400" /><br/>
 </p>
 ## :electric_plug: Funcionamento do sistema
 

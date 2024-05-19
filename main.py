@@ -21,8 +21,8 @@ except:
 SSID = 'MaisVerde_2H'
 PASSWORD = 'mod48pqr'
 
-apiToken = "6273167777:AAGR61XDl77tXnQ6slLVhLHMCaotwlywnTc"
-chatID = "1503409462"
+apiToken = "********:********************"
+chatID = "************"
 botAPI_endpoint = f'https://api.telegram.org/bot{apiToken}'
 
 def sendTelegramMessage(message):
